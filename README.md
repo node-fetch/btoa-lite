@@ -4,8 +4,6 @@ Simplest btoa implementation.
 
 Based on [btoa-lite](https://github.com/hughsk/btoa-lite) and implements [hughsk/btoa-lite#3](https://github.com/hughsk/btoa-lite/pull/3).
 
-[![NPM Badge](https://nodei.co/npm/btoa-lite.png)](https://npmjs.com/package/btoa-lite)
-
 ## Install
 
 ```sh
