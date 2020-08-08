@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "@node-fetch/btoa-lite",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Simplest btoa implementation.",
+	"repository": "https://github.com/node-fetch/btoa-lite.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,12 +17,22 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"btoa",
+		"base64",
+		"browser",
+		"node"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.10.1",
 		"eslint-config-richienb": "^0.4.2",
 		"xo": "^0.32.1"
+	},
+	"browser": "browser.js",
+	"exports": {
+		"browser": "./browser.js",
+		"default": "./index.js"
 	},
 	"xo": {
 		"extends": "richienb"

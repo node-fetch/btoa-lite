@@ -1,41 +1,28 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# btoa-lite [![Travis CI Build Status](https://img.shields.io/travis/com/node-fetch/btoa-lite/master.svg?style=for-the-badge)](https://travis-ci.com/node-fetch/btoa-lite)
 
-My awesome module.
+Simplest btoa implementation.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+Based on [btoa-lite](https://github.com/hughsk/btoa-lite) and implements [hughsk/btoa-lite#3](https://github.com/hughsk/btoa-lite/pull/3).
+
+[![NPM Badge](https://nodei.co/npm/btoa-lite.png)](https://npmjs.com/package/btoa-lite)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install @node-fetch/btoa-lite
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const btoa = require("@node-fetch/btoa-lite");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+btoa("Hello World");
+//=> "SGVsbG8gV29ybGQ="
 ```
 
 ## API
 
-### theModule(input, options?)
+### btoa(data)
 
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+See https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa
