@@ -1,3 +1,5 @@
-"use strict"
+import {Buffer} from 'node:buffer';
 
-module.exports = data => Buffer.from(data).toString("base64")
+export default function btoa(data) {
+	return Buffer.from(data).toString('base64');
+}

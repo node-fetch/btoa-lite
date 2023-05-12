@@ -1,0 +1,22 @@
+# btoa-lite
+
+> Simplest btoa implementation
+
+## Install
+
+```sh
+npm install @node-fetch/btoa-lite
+```
+
+## Usage
+
+```js
+import btoa from '@node-fetch/btoa-lite';
+
+console.log(btoa('Hello World'));
+//=> 'SGVsbG8gV29ybGQ='
+```
+
+## API
+
+### [btoa(data)](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa)

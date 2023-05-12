@@ -1,3 +1,1 @@
-"use strict"
-
-module.exports = btoa
+export default btoa;
