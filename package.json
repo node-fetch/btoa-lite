@@ -1,6 +1,6 @@
 {
 	"name": "@node-fetch/btoa-lite",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Simplest btoa implementation",
 	"license": "MIT",
 	"repository": "node-fetch/btoa-lite",
