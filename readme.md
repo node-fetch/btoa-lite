@@ -23,6 +23,6 @@ console.log(btoa('Hello World'));
 
 ## FAQ
 
-### What's the difference with [`btoa-lite`](https://github.com/hughsk/btoa-lite)
+### What's the difference with [`btoa-lite`](https://github.com/hughsk/btoa-lite)?
 
-That module's Node.js implementation uses a deprecated method.
+That Node.js implementation of that module uses a deprecated method.
