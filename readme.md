@@ -1,4 +1,4 @@
-# btoa-lite
+# @node-fetch/btoa-lite
 
 > Simplest btoa implementation
 
